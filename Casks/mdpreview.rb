@@ -1,6 +1,6 @@
 cask "mdpreview" do
-  version "1.1.0"
-  sha256 "736fee06a5f586a492c2e88e2e08d52737853076606a736489a497ef9eb5931d"
+  version "1.1.1"
+  sha256 "3d47e3fe42693beef87a34d1268ad2a998de19e30c0b7e7f79ab3f4060422de3"
 
   url "https://github.com/kazu-42/mdpreview/releases/download/v#{version}/MDPreview.dmg"
   name "MDPreview"
