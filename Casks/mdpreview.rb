@@ -1,6 +1,6 @@
 cask "mdpreview" do
-  version "1.2.8"
-  sha256 "d4ce8f0fc23bd28a921ae6d3c5e14381c9997f1d0e1528af84edacac2cabddde"
+  version "1.2.9"
+  sha256 "41706e323c6f55e44402a85c385c1053e52e855ed28123b16ed3f8aafa5dbdab"
 
   url "https://github.com/kazu-42/mdpreview/releases/download/v#{version}/MDPreview-#{version}.dmg"
   name "MDPreview"
@@ -19,9 +19,8 @@ cask "mdpreview" do
   binary "#{appdir}/MDPreview.app/Contents/Resources/mdpreview"
 
   zap trash: [
-    "~/Library/Application Support/com.mdpreview.app",
-    "~/Library/Caches/com.mdpreview.app",
-    "~/Library/HTTPStorages/com.mdpreview.app",
-    "~/Library/Preferences/com.mdpreview.app.plist",
+    "~/Library/Caches/MDPreview",
+    "~/Library/Containers/dev.kazu42.mdpreview",
+    "~/Library/Preferences/dev.kazu42.mdpreview.plist",
   ]
 end
