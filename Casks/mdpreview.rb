@@ -2,7 +2,7 @@ cask "mdpreview" do
   version "1.5.1"
   sha256 "1a55bd0e8c3abb028fbfb9af29c0c5d399c47e9fd731e414e531cc78bb433c58"
 
-  url "https://github.com/kazu-42/mdpreview/releases/download/v#{version}/MDPreview.dmg"
+  url "https://github.com/kazu-42/mdpreview/releases/download/v#{version}/MDPreview-v#{version}.dmg"
   name "MDPreview"
   desc "Lightweight Markdown preview app for macOS"
   homepage "https://github.com/kazu-42/mdpreview"
